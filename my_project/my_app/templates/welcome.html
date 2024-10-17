@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{% static 'style/style.css' %}"> 
+    </head>
+
+    <body>
+        <div class="heading">
+            <h1>Welcome</h1>
+            <p>Welcome to my website {{ name }} {{ surname }}!<br><br>
+                Your favourite colour is {{ favourite_colour }}!<br><br>
+                Your favourite number is {{ favourite_number }}!</p>
+        </div>
+    </body>
+
+</html>
